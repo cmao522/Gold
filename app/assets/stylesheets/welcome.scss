@@ -10,5 +10,21 @@ color: #367500;
 
 body
 {
-    background: #FDFEFE;
+    background: #e4ffdd;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 12px;
+    border: 2px solid #ccc;
+    background-color: #FDFEFE;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 12px 12px;
+    border: 2px solid #ccc;
+    background-color: #FDFEFE;
+    resize: none;
 }
