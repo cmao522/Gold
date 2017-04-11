@@ -21,8 +21,35 @@ body
 
 img {
     position: relative;
-    top: -90px;
-    right: -450px
+    top: -110px;
+    right: -410px
 
 }
 
+header {
+	height: 120px;
+}
+
+header h1 {
+	float: left;
+	margin-top: 32px;
+}
+
+
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	float: left;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+header nav ul li a {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	margin-right: 20px;
+}

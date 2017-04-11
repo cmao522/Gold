@@ -37,5 +37,5 @@ end
 
 private
 def post_params
-   params.require(:article).permit(:title, :text)
+   params.require(:post).permit(:title, :text)
 end
