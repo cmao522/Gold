@@ -5,13 +5,13 @@
 h1
 {
 size: 32px;
-color: #367500;
+color: black;
 }
 
 h3
 {
     size: 22px;
-    color: green;
+    color: #367500;
 }
 
 body
@@ -52,4 +52,38 @@ header nav ul li a {
 	font-weight: bold;
 	display: block;
 	margin-right: 20px;
+}
+
+#features ul {
+	margin: 80px 0;
+}
+
+#features ul li {
+	display: block;
+	color: black; 
+	margin: 0 auto 20px auto;
+	width: 400px;
+	border-bottom: 1px solid black;
+	padding: 0 0 20px 0;
+}
+
+#footer-info {
+	width: 380px;
+	float: left;
+	margin-top: 10px;
+}
+
+#footer-links {
+	width: 520px;
+	float: right;
+}
+
+#footer-links ul {
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+}
+
+#footer-links ul li {
+	margin: 10px 0;
 }

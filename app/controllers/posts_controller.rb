@@ -11,7 +11,14 @@ class PostsController < ApplicationController
     end
     
     def create
-      render plain: params[:post].inspect
+      #render plain: params[:post].inspect
+      @post = Post.new(post_params)
+        #byebug
+       if @post.save 
+           #byebug
+           redirect_to @post
+       else 
+           render 'new'
     end
     
     def edit
@@ -38,4 +45,5 @@ end
 private
 def post_params
    params.require(:post).permit(:title, :text)
+end
 end
