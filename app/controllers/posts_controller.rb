@@ -19,6 +19,7 @@ class PostsController < ApplicationController
            redirect_to @post
        else 
            render 'new'
+        end
     end
     
     def edit
@@ -47,4 +48,3 @@ def post_params
    params.require(:post).permit(:title, :text)
 end
 
-end
