@@ -78,13 +78,9 @@ header nav ul li a {
 	float: left;
 }
 
-#footer-links ul {
-	width: 150px;
-	float: left;
-	margin-left: 20px;
-}
 
 #footer-links ul li {
-	margin: 10px 0;
-	float: center;
+	margin-right: 20px;
+	display: inline-block;
+	float: left;
 }
