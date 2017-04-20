@@ -15,20 +15,8 @@
 <%= render @post.comments %>
 
 <h2>Add a comment:</h2>
-<%= form_for([@post, @post.comments.build]) do |f| %>
-<p>
-    <%= f.label :commenter %><br>
-    <%= f.text_field :commenter %>
-</p>
-<p>
-    <%= f.label :body %><br>
-    <%= f.text_area :body %>
-</p>
+<%= render 'comments/form' %>
+
 </div>
 
-<p>
-    <%= f.submit %>
-</p>
-
-<%end%>
 <%= link_to 'Post List', posts_path %>
