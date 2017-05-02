@@ -1,40 +1,56 @@
 <header>
-<h1>Welcome to the 704 Blog!</h1>
+<div class="title">
+<center><h1>Welcome to the 704 Blog! 
+<img src="http://advancement.uncc.edu/sites/advancement.uncc.edu/files/media/athletics-200.fw.png" 
+/> 
+<img src="http://advancement.uncc.edu/sites/advancement.uncc.edu/files/media/athletics-200.fw.png" style="float:left"/>
+</h1></center>
 
-<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Log In</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
 </header>
+</div>
 
-<h2>
-<%= link_to 'Posts', controller: 'posts'%>
-</h2>
+	<nav>
+		<ul>
+			<a href="#">Home</a>
+			<a href="#">Contact</a>
+			
+			<%= link_to 'Posts', controller: 'posts'%>
+				
+		</ul>
 
-<table>
-    <tr>
-        <img src="http://advancement.uncc.edu/sites/advancement.uncc.edu/files/media/athletics-200.fw.png"/>
-    </tr>
-</table>
+</nav>
 
 <div id="features">
 	<div class="wrapper">
 		<ul>
-			<li class="Daily Tips">
+			<li class="Daily Tip">
 				<h4>Daily Tips</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+				<p>Get here early to find a parking space!</p>
+				<p>Beware of the frats</p>
+				<p>Always check for rent-a-puppy on Tuesday and Thursday</p>
 			</li>
+			
 			<li class="New Feature">
 				<h4>New Feature</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
 			</li>
+			
+			<li class="Dailiy Tip">
+				<h4>Daily Tips</h4>
+				<p>Avoid Crown Commons</p>
+			</li>
+			
+			<li class="Dailiy Tip">
+				<h4>Daily Tips</h4>
+				<p>Watch for "landmines" during goose season</p>
+			</li>
+			
 			<li class="Update">
 				<h4>Update</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+				<p>UPDATE! The university will be implementing a new parking system. 
+				They will also be removing two parking lots. Specifically Lot 18 and 19. </p>
 			</li>
+			
 			<div class="clear"></div>
 		</ul>
 	</div>
@@ -48,7 +64,7 @@
 		</div>
 		<div id="footer-links">
 			<ul>
-				<li><a href="#">About Us</a></li>
+				<li><a href="index.html.erb">About Us</a></li>
 				<li><a href="#">Meet The Team</a></li>
 				<li><a href="#">What We Do</a></li>
 			</ul>
