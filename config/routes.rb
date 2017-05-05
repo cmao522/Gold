@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
 
-
-  get 'what/index'
-
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
   get 'signout', to: 'sessions#destroy', as: 'signout'
@@ -23,4 +20,7 @@ Rails.application.routes.draw do
   
   get 'team/index'
   root 'team#index'
+  
+  get 'what/index'
+  root 'what#index'
 end
