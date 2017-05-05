@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  
   get 'about/index'
+  root 'about#index'
 
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
