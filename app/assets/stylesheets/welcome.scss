@@ -2,33 +2,48 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h1
-{
-size: 32px;
-color: black;
-text-align: center;
-float: center;
+h1{
+	size: 32px;
+	color: green;
+	text-align: center;
+	float: center;
+	margin-top: 32px;
 }
 
 h1.title{
 	font-family: "COPPERPLATE", Fantasy;
+	float: center;
 	border-style: solid;
 	background-color: white;
 	font-size: 350%;
 }
 
 header {
-	margin-bottom: 5cm;
-	border-style: hidden;
-	background-color: #90EE90
-	border-bottom-width: 50px;
+	margin-bottom: 7cm;
+	height: 120px;
+	float: center;
+}
+
+#sign_in{
+	float: left;
+	font-size: 180%;
+	padding: 0px 15px
+}
+
+#nav ul{
+	margin-top: relative;
+}
+
+#nav a {;
+	padding: 0px 15px
 }
 
 img{
-	height: 202px;
-    width: 28%;
+    float: center;
+    text-align:center;
+    height: 200px;
+ 	width: auto;
 }
-
 
 h3
 {
@@ -50,30 +65,16 @@ h2{
 body
 {
     background: #e4ffdd;
-}
-
-header {
-	height: 120px;
-}
-
-
-header h1 {
-	margin-top: 32px;
 
 }
 
-nav {
-	float: left;
-	margin-top: -100px;
-	border-style: solid;
-	border-radius: 10px;
-	background-color: white;
+#features{
+	margin-top: 3cm;
 }
-
 
 #features ul {
-	margin: 300px 0px;
-	margin-bottom: 5cm;
+	margin: 80px 0px;
+	margin-bottom: 1cm;
 }
 
 #features ul li {
@@ -82,12 +83,9 @@ nav {
     margin-right: auto;
 	color: black; 
 	width: 500px;
-	border-bottom: 1px solid black;
+	border-bottom: 5px solid green;
 	padding: 10px 10px 15px 15px;
-	border-style: solid;
-	border-radius: 2px;
-	background-color: white;
-	border-width: 2px 1px 2px 1px;
+
 }
 
 #footer-info {
